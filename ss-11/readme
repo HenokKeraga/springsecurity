@@ -1,0 +1,8 @@
+
+authorization grant type =password
+http://localhost:8080/oauth/token?grant_type=password&username=henok&password=12345&scope=read
+
+authorization grant type =authorization code
+http://localhost:8080/oauth/authorize?response_type=code&client_id=client2&scope=read
+
+http://localhost:8080/oauth/token?grant_type=authorization_code&scope=read&code=E6UYD9
